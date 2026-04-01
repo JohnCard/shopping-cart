@@ -94,3 +94,11 @@ npm run preview
 - **State Architecture:** Uses the `useReducer` pattern with action types (`[CARRITO] Agregar Compra`, `[CARRITO] Eliminar Compra`, etc.) for predictable cart state transitions — similar to Redux patterns but without the dependency.
 - **Context Separation:** Products and Cart have independent contexts, following the single-responsibility principle.
 - **API Integration:** Products are fetched from `fakestoreapi.com` on mount via `useEffect`.
+
+---
+
+### Screenshots
+
+| Gallery | Shooping cart |
+|:-:|:-:|
+| ![Gallery](img/galeria.png) | ![Shopping cart](img/comprando.png) |
